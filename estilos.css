@@ -1,0 +1,17 @@
+#map {
+    height: 1024px;
+    position: relative; /* Añade esta línea */
+}
+
+#agregarBoton {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1000; /* Añade esta línea */
+}
